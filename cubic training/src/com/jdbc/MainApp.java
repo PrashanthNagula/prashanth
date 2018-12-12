@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainApp {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter option:"
+		while(true){System.out.println("enter option:"
 				+ "1.insert"
 				+ "2.retrieve"
 				+ "3.update"
@@ -27,6 +27,7 @@ public class MainApp {
 		}
 		}
 		
+	}
 	}
 	
 
